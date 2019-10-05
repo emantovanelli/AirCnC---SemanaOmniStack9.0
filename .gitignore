@@ -1,0 +1,88 @@
+/lib
+/lib-legacy
+/node_modules
+*.log
+/.nyc_output
+/coverage
+/dist
+/dist-debug
+/artifacts
+/updates
+/resources/winsetup/generated.wxs
+/resources/winsetup/obj
+/resources/winsetup/bin
+/resources/win-chocolatey/tools/chocolateyinstall.ps1
+.vs
+*.msi
+*.nupkg
+test/fixtures/**/.fbkpm
+/tmp/
+/__tests__/fixtures/**/_*
+/__tests__/fixtures/request-cache/GET/localhost/.bin
+.idea
+.yarn-meta
+.pnp.js
+.pnp
+/packages/lockfile/index.js
+.vscode/
+.png
+.jpg
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
