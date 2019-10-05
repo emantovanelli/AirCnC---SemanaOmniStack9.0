@@ -1,4 +1,5 @@
 const express = require('express');
+const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
@@ -6,8 +7,6 @@ const routes = express.Router();
 // req.params = acessar route params (edição e delete)
 // req.body = acessar o corpo da mensagem (criacao e edicao)
 
-routes.get('/users', (req, res) =>{
-    return res.json(req.body);
-});
+routes.post('/sessions', SessionController.store);
 
 module.exports = routes;
